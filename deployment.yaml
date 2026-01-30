@@ -17,6 +17,6 @@ spec:
         - name: ghcr-secret
       containers:
         - name: grade-submission-api
-          image: ghcr.io/jumptotechschooldevops/k8s-ci-build:PLACEHOLDER
+          image: avtan1/probe-demo
           ports:
             - containerPort: 3000
